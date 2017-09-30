@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice 7</title>
+  </head>
+
+  <body>
+    <form action="index.html" method="post">
+      <fieldset class="field1">
+        <legend class="titre1">Votre identité</legend>
+        <ol>
+          <li><label for="nom">Nom : </label><input type="text" placeholder="nom"/></li>
+          <li>Prénom : <input type="text" placeholder="prénom"/></li>
+          <li>Adresse mail : <input type="text" placeholder="adresse mail"/></li>
+        </ol>
+      </fieldset>
+
+        <fieldset class="field2">
+          <legend class="titre2">Adresse de livraison</legend>
+          <ol>
+            <li>Adresse : <textarea type="text" rows="8"/></textarea></li>
+            <li>Code postal : <input type="text" placeholder="code postal" /></li>
+            <li>Ville : <input type="text" placeholder="ville" /></li>
+          </ol>
+        </fieldset>
+
+        <fieldset class="field3">
+          <legend class="titre3">Informations de réglement</legend>
+          <ol>
+            <li>Type de carte bancaire :</li>
+            <input type="radio"/>VISA<br>
+            <input type="radio"/>MASTERCARD<br/>
+            <li>Numéro de carte : <input type="text" placeholder="numéro de carte"</li>
+            <li>Code de sécurité : <input type="text" placeholder="code de sécurité"/></li>
+            <li>Nom du titulaire : <input type="text" placeholder="nom du titulaire"/></li>
+          </ol>
+        </fieldset>
+        <input type="submit"  value="J'achète !"/>
+      </form>
+  </body>
+</html>
